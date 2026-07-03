@@ -1,0 +1,175 @@
+{
+  "comidas": [
+    "Feijoada", "Pão de Queijo", "Estrogonofe", "Sushi", "Acarajé", 
+    "Churrasco", "Lasanha", "Brigadeiro", "Tapioca", "Macarronada", 
+    "Guacamole", "Cachorro-quente", "Pipoca doce", "Omelete",
+    "Coxinha", "Moqueca", "Pizza", "Hambúrguer", "Pudim", 
+    "Bolo de Cenoura", "Yakisoba", "Açaí", "Ceviche", "Tacos", 
+    "Paella", "Churros", "Vatapá", "Salpicão",
+    "Croissant", "Kebab", "Borsch", "Tiramisu", "Pierogi", 
+    "Waffle", "Falafel", "Ratatouille", "Caviar", "Pretzel"
+  ],
+  "animais": [
+    "Cachorro", "Ornitorrinco", "Preguiça", "Suricato", "Girafa", 
+    "Elefante", "Tubarão", "Camaleão", "Pinguim", "Canguru", 
+    "Leão", "Gato", "Galinha", "Sapo", "Urso Panda",
+    "Hipopótamo", "Rinoceronte", "Jacaré", "Coruja", "Polvo", 
+    "Baleia", "Gorila", "Lobo", "Cavalo", "Morcego", 
+    "Caranguejo", "Tucano", "Avestruz", "Porco-espinho",
+    "Tigre", "Urso Polar", "Raposa", "Águia", "Crocodilo", 
+    "Lhama", "Pavão", "Leopardo", "Castor", "Camelo"
+  ],
+  "filmes": [
+    "Tropa de Elite", "O Auto da Compadecida", "Matrix", "Titanic", 
+    "O Senhor dos Anéis", "De Volta para o Futuro", "Jurassic Park", 
+    "Vingadores", "O Rei Leão", "Avatar", "Star Wars", "E.T. O Extraterrestre",
+    "Cidade de Deus", "O Poderoso Chefão", "Shrek", "Toy Story", 
+    "Indiana Jones", "Gladiador", "A Era do Gelo", "Procurando Nemo", 
+    "Clube da Luta", "O Iluminado", "Homem-Aranha", "Piratas do Caribe",
+    "Os Simpsons", "Bob Esponja", "Scooby-Doo", "Tom e Jerry",
+    "Looney Tunes", "Pica-Pau", "Os Flintstones", "Os Jetsons",
+    "Corrida Maluca", "He-Man", "She-Ra", "Thundercats",
+    "Dragon Ball", "Dragon Ball Z", "Naruto", "One Piece",
+    "Pokémon", "Digimon", "Yu-Gi-Oh!", "Cavaleiros do Zodíaco",
+    "Ben 10", "As Meninas Superpoderosas", "Hora de Aventura",
+    "Apenas um Show", "Steven Universo", "Peppa Pig",
+    "Patrulha Canina", "Turma da Mônica", "Chaves",
+    "Todo Mundo Odeia o Chris", "Friends", "The Big Bang Theory",
+    "Breaking Bad", "Game of Thrones", "Stranger Things",
+    "Round 6", "La Casa de Papel", "The Office",
+    "The Walking Dead", "The Last of Us", "Wandinha",
+    "Supernatural", "Dark", "Cobra Kai", "Loki",
+    "The Mandalorian", "Black Mirror", "The Boys"
+  ],
+  "ditos": [
+    "Chutar o balde", "Procurar chifre em cabeça de cavalo", "Pagar o pato", 
+    "Chorar pelo leite derramado", "Custar os olhos da cara", 
+    "Puxar o saco", "Dar com os burros n'água", "Colocar a mão no fogo",
+    "Rodar a baiana", "Pisando em ovos",
+    "Enfiar o pé na jaca", "Segurar a vela", "Acabar em pizza", 
+    "Comprar gato por lebre", "Tirar o cavalinho da chuva", "Quebrar o galho", 
+    "Bater as botas", "Falar pelos cotovelos", "Tempestade em copo d'água", 
+    "Engolir sapo", "Procurar sarna para se coçar"
+  ],
+  "profissoes": [
+    "Engenheiro", "Médico", "Advogado", "Bombeiro", "Professor", 
+    "Astronauta", "Detetive", "Chefe de Cozinha", "Mecânico", 
+    "Juiz", "Programador", "Policial", "Pintor", "Piloto de Avião",
+    "Arquiteto", "Carteiro", "Gari", "Cabeleireiro", "Dentista", 
+    "Padeiro", "Fotógrafo", "Jornalista", "Veterinário", "Encanador", 
+    "Maquiador", "Fazendeiro", "Mágico"
+  ],
+  "esportes": [
+    "Basquete", "Beisebol", "Natação", "Futebol", "Tênis", 
+    "Ginástica Artística", "Boxe", "Vôlei", "Esgrima", "Judô", 
+    "Enterrada", "Home Run", "Surf",
+    "Atletismo", "Ciclismo", "Skate", "Handebol", "Rugby", 
+    "Golfe", "Tênis de Mesa", "Levantamento de Peso", "Salto Ornamental", 
+    "Patinação no Gelo", "Remo", "Arco e flecha"
+  ],
+  "personagens": [
+    "Adrian Monk", "Richard Castle", "Patrick Jane", "Darth Vader", 
+    "Homem-Aranha", "Mickey Mouse", "Sherlock Holmes", "Batman", 
+    "Coringa", "Harry Potter", "Chapolin Colorado", "Mulher Maravilha",
+    "Chaves", "Super Mario", "Goku", "Mônica", "Cebolinha", 
+    "James Bond", "Capitão América", "Scooby-Doo", "Pica-Pau", 
+    "Bob Esponja", "Homer Simpson", "Naruto",
+    "Pinóquio", "Branca de Neve", "Peter Pan", "Pateta", "Pato Donald", 
+    "Yoda", "Gandalf", "Pikachu", "Frankenstein", "Drácula"
+  ],
+  "lugares_historicos": [
+    "Império Romano", "Egito Antigo", "Estátua da Liberdade", 
+    "Torre Eiffel", "Muralha da China", "Coliseu", "Pirâmides do Egito", 
+    "Cristo Redentor", "Floresta Amazônica", "Taj Mahal",
+    "Machu Picchu", "Acrópole de Atenas", "Stonehenge", "Monte Rushmore", 
+    "Torre de Pisa", "Palácio de Versalhes", "Pão de Açúcar", 
+    "Cataratas do Iguaçu", "Ruínas de Pompeia", "Big Ben"
+  ],
+  "acoes": [
+    "Andar de bicicleta", "Tocar violão", "Pular corda", "Tirar foto", 
+    "Pescar", "Dançar ballet", "Cantar no chuveiro", "Lavar louça", 
+    "Pintar um quadro", "Jogar videogame", "Dirigir um carro",
+    "Escovar os dentes", "Trocar uma lâmpada", "Passar pano no chão", 
+    "Cortar o cabelo", "Empinar pipa", "Fazer malabarismo", "Montar barraca", 
+    "Mergulhar", "Digitar no teclado", "Costurar", "Soluçar"
+  ],
+  "objetos": [
+    "Bola", "Dado", "Computador", "Guarda-chuva", "Multímetro", 
+    "Bússola", "Escudo", "Fone de Ouvido", "Lâmpada", "Ampulheta", 
+    "Telescópio", "Cadeira", "Relógio de Pulso", "Mochila", "Chave", 
+    "Martelo", "Extintor de Incêndio", "Espelho", "Câmera Fotográfica", "Tabuleiro"
+  ],
+  "veiculos": [
+    "Carro", "Moto", "Bicicleta", "Ônibus", "Caminhão",
+    "Van", "Táxi", "Ambulância", "Viatura", "Carro de Bombeiro",
+    "Trator", "Patinete", "Skate", "Patins", "Monociclo",
+    "Trem", "Metrô", "Bonde", "Teleférico", "Avião",
+    "Jato", "Helicóptero", "Balão", "Foguete", "Nave Espacial",
+    "Navio", "Barco", "Lancha", "Canoa", "Caiaque",
+    "Jet Ski", "Submarino", "Dirigível", "Carroça", "Carrinho de Mão"
+  ],
+  "paises_cidades": [
+    "Brasil", "Argentina", "Uruguai", "Chile", "Paraguai",
+    "Estados Unidos", "Canadá", "México", "Portugal", "Espanha",
+    "França", "Alemanha", "Itália", "Reino Unido", "Irlanda",
+    "Rússia", "China", "Japão", "Coreia do Sul", "Índia",
+    "Austrália", "Egito", "África do Sul", "Marrocos", "Grécia",
+    "São Paulo", "Rio de Janeiro", "Brasília", "Salvador", "Fortaleza",
+    "Recife", "Belo Horizonte", "Curitiba", "Manaus", "Belém",
+    "Nova York", "Los Angeles", "Londres", "Paris", "Roma",
+    "Madri", "Lisboa", "Berlim", "Moscou", "Tóquio",
+    "Pequim", "Dubai", "Sydney", "Cairo", "Atenas"
+  ],
+
+  "natureza": [
+    "Árvore", "Flor", "Folha", "Grama", "Raiz",
+    "Floresta", "Selva", "Bosque", "Deserto", "Oásis",
+    "Montanha", "Morro", "Vale", "Caverna", "Vulcão",
+    "Rio", "Lago", "Lagoa", "Cachoeira", "Mar",
+    "Oceano", "Praia", "Ilha", "Península", "Pântano",
+    "Nuvem", "Chuva", "Tempestade", "Raio", "Trovão",
+    "Vento", "Neve", "Granizo", "Gelo", "Arco-íris",
+    "Sol", "Lua", "Estrela", "Planeta", "Cometa",
+    "Meteorito", "Terremoto", "Furacão", "Tornado", "Aurora Boreal"
+  ],
+
+  "emocoes": [
+    "Alegria", "Tristeza", "Raiva", "Medo", "Coragem",
+    "Amor", "Paixão", "Ódio", "Ciúmes", "Vergonha",
+    "Orgulho", "Esperança", "Ansiedade", "Calma", "Nervosismo",
+    "Surpresa", "Confusão", "Nojo", "Empolgação", "Saudade",
+    "Solidão", "Gratidão", "Timidez", "Confiança", "Alívio",
+    "Felicidade", "Desespero", "Frustração", "Curiosidade", "Admiração"
+  ],
+
+  "datas_comemorativas": [
+    "Natal", "Papai Noel", "Árvore de Natal", "Presente",
+    "Rena", "Trenó", "Gorro de Natal", "Guirlanda",
+    "Páscoa", "Coelho da Páscoa", "Ovo de Páscoa", "Chocolate",
+    "Carnaval", "Fantasia", "Máscara", "Confete", "Serpentina",
+    "Halloween", "Abóbora", "Fantasma", "Bruxa", "Vampiro",
+    "Dia das Mães", "Dia dos Pais", "Dia das Crianças",
+    "Ano Novo", "Fogos de Artifício", "Champanhe", "Contagem Regressiva",
+    "Festa Junina", "Fogueira", "Quadrilha", "Bandeirinha",
+    "Milho", "Pamonha", "Canjica", "Pipoca", "Balão",
+    "Casamento", "Aniversário", "Bolo de Aniversário",
+    "Vela", "Convite", "Formatura", "Diploma", "Dia dos Namorados"
+  ],
+
+  "celebridades_historicos": [
+    "Albert Einstein", "Isaac Newton", "Nikola Tesla", "Galileu Galilei",
+    "Leonardo da Vinci", "Thomas Edison", "Santos Dumont", "Marie Curie",
+    "Charles Darwin", "Stephen Hawking", "Pitágoras", "Arquimedes",
+    "Cristóvão Colombo", "Pedro Álvares Cabral", "Napoleão Bonaparte",
+    "Júlio César", "Cleópatra", "Alexandre, o Grande", "Gengis Khan",
+    "Abraham Lincoln", "George Washington", "Dom Pedro II",
+    "Tiradentes", "Getúlio Vargas", "Nelson Mandela",
+    "Mahatma Gandhi", "Martin Luther King Jr.", "Madre Teresa",
+    "Princesa Diana", "Rainha Elizabeth II",
+    "Pelé", "Ayrton Senna", "Michael Jordan", "Lionel Messi",
+    "Cristiano Ronaldo", "Usain Bolt", "Michael Jackson",
+    "Elvis Presley", "Freddie Mercury", "Taylor Swift",
+    "Neymar", "Silvio Santos", "Xuxa", "Roberto Carlos",
+    "Anitta", "Fernanda Montenegro"
+  ]
+}
