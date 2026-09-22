@@ -78,6 +78,9 @@ const availableCategories = [
   return (
     <div style={styles.container}>
       <h1 style={styles.title}>Mímica App</h1>
+      <div style={{ display: 'flex', justifyContent: 'center'}}>
+        <p>v2.0</p>
+      </div>
 
       <div style={styles.section}>
         <h3 style={styles.subtitle}>Modo de Jogo</h3>
