@@ -1,14 +1,22 @@
 export default function ScoreScreen({ gameSettings, onRestart, onNextRound }) {
   const isGroup = gameSettings.gameMode === 'grupo';
+  const currentRound = gameSettings.roundNumber || 1; // Pega o número da rodada atual
 
-  // Se for grupo, ordena as equipes pela pontuação (do maior para o menor)
   const sortedTeams = isGroup 
     ? [...gameSettings.teams].sort((a, b) => b.pontos - a.pontos)
     : [];
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.title}>Fim de Rodada!</h1>
+      {/* EXIBE O TÍTULO E A RODADA SE FOR GRUPO */}
+      <div>
+        <h1 style={styles.title}>Fim de Rodada!</h1>
+        {isGroup && (
+          <h3 style={{ color: 'var(--primary-color)', marginTop: '-1rem', marginBottom: '1.5rem' }}>
+            Rodada {currentRound}
+          </h3>
+        )}
+      </div>
 
       {isGroup ? (
         <div style={styles.scoreboard}>
@@ -18,15 +26,13 @@ export default function ScoreScreen({ gameSettings, onRestart, onNextRound }) {
               key={index} 
               style={{
                 ...styles.teamRow,
-                borderColor: team.color // A borda ganha a cor do time
+                borderColor: team.color
               }}
             >
               <div style={styles.teamInfo}>
                 <span style={styles.position}>{index + 1}º</span>
-                {/* Mostrando o Emoji e o Nome */}
                 <span style={styles.teamName}>{team.emoji} {team.nome}</span>
               </div>
-              {/* O número de pontos também ganha a cor do time */}
               <span style={{...styles.score, color: team.color}}>{team.pontos} pts</span>
             </div>
           ))}
@@ -42,7 +48,6 @@ export default function ScoreScreen({ gameSettings, onRestart, onNextRound }) {
       )}
 
       <div style={styles.footer}>
-        {/* Mostra o botão de Próxima Rodada apenas no Modo em Grupo */}
         {isGroup && (
           <button 
             onClick={onNextRound} 
@@ -65,7 +70,7 @@ export default function ScoreScreen({ gameSettings, onRestart, onNextRound }) {
 
 const styles = {
   container: { display: 'flex', flexDirection: 'column', height: '100%', flex: 1, textAlign: 'center' },
-  title: { color: 'var(--primary-color)', marginBottom: '2rem' },
+  title: { color: 'var(--primary-color)', marginBottom: '1.5rem' },
   scoreboard: { flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '0.8rem' },
   teamRow: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', backgroundColor: '#1E1E1E', padding: '1rem', borderRadius: '8px', width: '100%', borderLeft: '6px solid' },
   teamInfo: { display: 'flex', alignItems: 'center', gap: '1rem' },

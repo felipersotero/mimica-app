@@ -75,11 +75,12 @@ const availableCategories = [
     });
   };
 
-  return (
+return (
     <div style={styles.container}>
-      <h1 style={styles.title}>Mímica App</h1>
-      <div style={{ display: 'flex', justifyContent: 'center'}}>
-        <p>v2.0</p>
+      {/* TÍTULO E VERSÃO */}
+      <div style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
+        <h1 style={styles.title}>Mímica App</h1>
+        <span style={styles.versionTag}>v3.0.0</span>
       </div>
 
       <div style={styles.section}>
@@ -185,8 +186,9 @@ const availableCategories = [
 
 const styles = {
   // ... (mantenha os estilos anteriores que já estavam no arquivo e adicione os novos abaixo)
-  container: { display: 'flex', flexDirection: 'column', height: '100%', flex: 1, overflowY: 'auto', paddingBottom: '2rem' },
-  title: { textAlign: 'center', color: 'var(--primary-color)', marginBottom: '2rem' },
+  container: { display: 'flex', flexDirection: 'column', height: '100%', flex: 1 },
+  title: { color: 'var(--primary-color)', textAlign: 'center', marginBottom: '0.2rem' }, // Ajustei a margem para colar um pouco mais na versão
+  versionTag: { fontSize: '0.8rem', color: '#666', letterSpacing: '1px' },
   section: { marginBottom: '2rem' },
   subtitle: { fontSize: '1rem', color: '#aaa', marginBottom: '0.8rem' },
   row: { display: 'flex', gap: '0.5rem' },

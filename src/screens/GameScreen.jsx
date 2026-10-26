@@ -29,12 +29,18 @@ export default function GameScreen({ initialWords, roundTime, onFinishRound, cur
 
   useEffect(() => {
     if (timeLeft <= 0) {
-      onFinishRound(roundHistory);
+      // Se há uma palavra ativa na tela quando o tempo acaba, 
+      // a incluímos no histórico como 'pulou' para poder ser revisada.
+      const finalHistory = currentWord.text 
+        ? [...roundHistory, { palavra: currentWord.text, status: 'pulou' }]
+        : roundHistory;
+
+      onFinishRound(finalHistory);
       return;
     }
     const timerInterval = setInterval(() => setTimeLeft(prev => prev - 1), 1000);
     return () => clearInterval(timerInterval);
-  }, [timeLeft, onFinishRound, roundHistory]);
+  }, [timeLeft, currentWord, roundHistory, onFinishRound]);
 
   useEffect(() => {
     setIsSkipDisabled(true);

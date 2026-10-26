@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './index.css';
 import SetupScreen from './screens/SetupScreen';
 import GameScreen from './screens/GameScreen';
@@ -14,6 +14,19 @@ function App() {
   const [currentRoundHistory, setCurrentRoundHistory] = useState([]);
   const [currentTeamIndex, setCurrentTeamIndex] = useState(0);
 
+  // NOVO: Bloqueio de fechamento acidental ativo em TODAS as telas
+  useEffect(() => {
+    const handleBeforeUnload = (e) => {
+      e.preventDefault();
+      e.returnValue = ''; 
+    };
+
+    window.addEventListener('beforeunload', handleBeforeUnload);
+    return () => {
+      window.removeEventListener('beforeunload', handleBeforeUnload);
+    };
+  }, []);
+  
   // O dicionário interno antigo foi APAGADO.
   // Atualizamos as labels para bater com as novas categorias do JSON
   const categoryLabels = {
@@ -55,7 +68,8 @@ function App() {
   const handleStartGame = (settings) => {
     setGameSettings({
       ...settings,
-      words: generateWordList(settings.selectedCategories)
+      words: generateWordList(settings.selectedCategories),
+      roundNumber: 1
     });
     
     // Se for grupo, vai para a tela de aviso de turno. Se for individual, vai direto pro jogo.
@@ -103,7 +117,8 @@ function App() {
     setGameSettings(prev => ({
       ...prev,
       // Sorteia uma nova lista de palavras baseada nas categorias escolhidas
-      words: generateWordList(prev.selectedCategories) 
+      words: generateWordList(prev.selectedCategories),
+      roundNumber: (prev.roundNumber || 1) + 1 // Incrementa o número da rodada
     }));
     setCurrentTeamIndex(0); // Volta para o primeiro time
     setCurrentScreen('turn'); // Mostra a tela de preparação
